@@ -1,0 +1,9 @@
+package com.ty.Springboot.RestAPI.entity;
+
+public class SmartPhones {
+	private int id;
+	private String brand;
+	private String model;
+	private int price;
+
+}

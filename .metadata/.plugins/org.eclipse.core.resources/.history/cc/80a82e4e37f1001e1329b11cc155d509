@@ -1,0 +1,6 @@
+package liskovSubstitutionPrinciple;
+
+public interface WithdrawService {
+	void withdraw();
+
+}

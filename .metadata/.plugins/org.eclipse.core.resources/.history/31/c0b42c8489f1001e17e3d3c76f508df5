@@ -1,0 +1,17 @@
+package interfaceSeggregationPrinciple;
+
+public class GooglePay implements UPIPayments{
+
+	@Override
+	public void payMoney(long amount, int phno) {
+		System.out.println("Rupees "+amount+" paid to "+phno);
+		
+	}
+
+	@Override
+	public void getScratchCard() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

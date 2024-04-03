@@ -1,0 +1,6 @@
+package dependencyInversionPrinciple;
+
+public interface BankCards {
+	void doPayment(int amount);
+
+}

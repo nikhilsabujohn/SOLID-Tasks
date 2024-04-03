@@ -1,0 +1,11 @@
+package dependencyInversionPrinciple;
+
+public class CreditCard implements BankCards{
+
+	@Override
+	public void doPayment(int amount) {
+		System.out.println("Rupees "+amount+" is done through CREDITCARD");
+		
+	}
+
+}

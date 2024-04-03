@@ -1,0 +1,12 @@
+a bankService has following features
+
+1.deposit
+2.withdraw
+.sentOTP
+
+
+An Account holder in a bank can't withdraw the money 
+if he/she dosen't have a savings account( cant withdraw from "current account" but can have all other features)
+
+hence to implement LSP separate iterfaces can be created
+

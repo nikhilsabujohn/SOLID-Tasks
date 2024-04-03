@@ -1,0 +1,12 @@
+package com.ty.Springboot.RestAPI;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Controller {
+	public String home()
+	{
+		System.out.println("done nik");
+	}
+
+}

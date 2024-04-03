@@ -1,0 +1,19 @@
+package dependencyInversionPrinciple;
+
+public class Shopping {
+	private BankCards bankCard;
+
+	public Shopping(BankCards bankCard) {
+		this.bankCard=bankCard;
+	}
+	
+	public void payment(String product,int amount)
+	{
+		bankCard.doPayment(product,amount);
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

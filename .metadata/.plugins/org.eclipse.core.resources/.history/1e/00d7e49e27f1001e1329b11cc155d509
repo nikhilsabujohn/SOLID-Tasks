@@ -1,0 +1,28 @@
+package singleResponsibility;
+
+import java.util.Scanner;
+
+public class BankServiceContoller {
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Enter AccountNo");
+		String accno=scanner.next();
+		System.out.println("Services Provided "
+				+"\n"+ "1.Deposit"
+				+"\n"+ "2.Withdraw"
+				+"\n"+ "3.SendOTP");
+		int choice=scanner.nextInt();
+		switch (choice) 
+		{
+			case 1: 
+			{
+				System.err.println("Enter amount to be Deposited :");
+				long n=scanner.nextLong();
+				DepositService.
+			}
+		}
+		System.err.println();
+		
+	}
+
+}

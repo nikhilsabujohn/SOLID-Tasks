@@ -1,0 +1,27 @@
+package openClosedPrinciple;
+
+import java.util.Random;
+
+public class WhatsappNotification implements NotificationServices{
+
+	@Override
+	public void sendOTP() {
+		Random random=new Random();
+		int count=4;
+		String otp=null;
+		while(count!=0)
+		{
+		int n=random.nextInt(65, 90);
+		if(n>=65 && n<=90)
+		{
+		char ch=(char)(n);
+		otp+=ch;
+		count--;
+		}
+		}
+		System.out.println(otp);
+		
+	}
+	
+
+}

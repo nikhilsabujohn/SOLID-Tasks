@@ -1,0 +1,23 @@
+package liskovSubstitutionPrinciple;
+
+public class Instagram implements SocialMedia,SocialPostManager{
+
+	@Override
+	public void publishPhoto() {
+		System.out.println("upload photo");
+		
+	}
+
+	@Override
+	public void chat() {
+		System.out.println("Begin chat");
+		
+	}
+
+	@Override
+	public void groupCall() {
+		System.out.println("start group call");
+		
+	}
+
+}

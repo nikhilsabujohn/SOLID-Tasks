@@ -1,0 +1,18 @@
+
+
+this principle mainly focuses on interfaces rather than on classes
+logic is do not force any client to implement an interface which is irrelevant to them
+
+
+an interface UPIPayments has following services
+	
+	1.payMoney
+	2.GetScatchCard
+	3.GetCashBackAsCreditBalance
+	
+consider two classes 
+
+	1.paytm
+	2.GooglePay 
+	
+google pay dosen't supports GetCashBackAsCreditBalance so we have to segregate interface to follow ISP

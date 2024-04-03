@@ -1,0 +1,8 @@
+package dependencyInversionPrinciple;
+
+public class Shopping {
+	private BankCards bankCards;
+	
+	
+
+}

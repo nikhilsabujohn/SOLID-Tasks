@@ -1,0 +1,9 @@
+package singleResponsibility;
+
+public class WithdrawService {
+	public boolean withdraw(long amount,String accountNo)
+	{
+		return true;
+	}
+
+}

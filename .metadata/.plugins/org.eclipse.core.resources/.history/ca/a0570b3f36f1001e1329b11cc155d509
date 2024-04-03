@@ -1,0 +1,17 @@
+package liskovSubstitutionPrinciple;
+
+public class Whatsapp implements SocialMedia{
+
+	@Override
+	public void chat() {
+		System.out.println("Begin whatsapp chat");
+		
+	}
+
+	@Override
+	public void groupCall() {
+		System.out.println("Start Whatsapp groupcall");
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package singleResponsibility;
+
+public class DepositService {
+	public boolean deposit(long amount,String accountNo)
+	{
+		return true;
+	}
+
+}

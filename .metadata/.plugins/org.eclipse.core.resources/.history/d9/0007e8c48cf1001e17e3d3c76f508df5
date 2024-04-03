@@ -1,0 +1,39 @@
+package interfaceSeggregationPrinciple;
+
+import java.util.Scanner;
+
+public class PaymentController {
+	public static void main(String[] args) {
+	int phno=0;
+	int flag=1;
+	Scanner scanner= new Scanner(System.in);
+	
+	System.out.println("Choose an Application "
+			+"\n"+ "1.googlePay"
+			+"\n"+ "2.Paytm");
+
+	while(flag!=0)
+	{
+	System.out.println("Enter Recipient Phone Number :");
+	phno=scanner.nextInt();
+	int n=String.valueOf(phno).length();
+	if(n<10 ||n>10 )
+	{
+		System.out.println("Wrong number");
+	}
+	else
+	{
+		System.out.println("user Exist");
+		flag=0;
+	}
+	
+	}
+	
+	double amount;
+	System.out.println("Enter Amount to Pay :" );
+	amount=scanner.nextInt();
+	
+	
+
+}
+}

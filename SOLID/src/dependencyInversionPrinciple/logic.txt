@@ -1,0 +1,9 @@
+
+
+Consider BankCards of which two types of cards are there
+
+		1.Credit card
+		2.Debit Card
+		
+Consider a class ShoppingMall from where the payment shoould be done without bothering which type of card the user uses
+means the higher module should depend on abstraction insted of lower modules or classes

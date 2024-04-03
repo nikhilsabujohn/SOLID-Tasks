@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="singleResponsibility.DepositService"/>
+    <fullyQualifiedTypeName name="singleResponsibility.WithdrawService"/>
+    <fullyQualifiedTypeName name="singleResponsibility.NotificationService"/>
+    <fullyQualifiedTypeName name="openClosedPrinciple.NotificationServices"/>
+    <fullyQualifiedTypeName name="openClosedPrinciple.SMSNotification"/>
+    <fullyQualifiedTypeName name="openClosedPrinciple.WhatsappNotification"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="liskovSubstitutionPrinciple.SocialPostManager"/>
+    <fullyQualifiedTypeName name="liskovSubstitutionPrinciple.SocialMedia"/>
+    <fullyQualifiedTypeName name="liskovSubstitutionPrinciple.WithdrawService"/>
+    <fullyQualifiedTypeName name="liskovSubstitutionPrinciple.BankServices"/>
+    <fullyQualifiedTypeName name="liskovSubstitutionPrinciple.SavingsAccount"/>
+    <fullyQualifiedTypeName name="liskovSubstitutionPrinciple.CurrentAccount"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="interfaceSeggregationPrinciple.UPIPayments"/>
+    <fullyQualifiedTypeName name="interfaceSeggregationPrinciple.CreditManager"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="interfaceSeggregationPrinciple.PaymentController"/>
+    <fullyQualifiedTypeName name="interfaceSeggregationPrinciple.GooglePay"/>
+    <fullyQualifiedTypeName name="interfaceSeggregationPrinciple.Paytm"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="dependencyInversionPrinciple.BankCards"/>
+    <fullyQualifiedTypeName name="dependencyInversionPrinciple.CreditCard"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="dependencyInversionPrinciple.Shopping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.availability.LivenessState"/>
+    <fullyQualifiedTypeName name="com.ty.Springboot.RestAPI.Services"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpStatusCode"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+    <fullyQualifiedTypeName name="com.ty.Springboot.RestAPI.SmartPhones"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

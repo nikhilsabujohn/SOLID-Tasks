@@ -1,0 +1,18 @@
+package liskovSubstitutionPrinciple;
+
+import java.util.Scanner;
+
+
+public class BankController {
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		String accno=scanner.next();
+		System.out.println("Enter AccountNo");
+		System.out.println("Select type of account "
+				+"\n"+ "1.Savings"
+				+"\n"+ "2.current");
+		//int accType=scanner.nextInt();
+
+}
+}
+		

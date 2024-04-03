@@ -1,0 +1,15 @@
+package interfaceSeggregationPrinciple;
+
+import java.util.Scanner;
+
+public class PaymentController {
+	public static void main(String[] args) {
+	
+	Scanner scanner= new Scanner(System.in);
+	System.out.println("Enter Recipient Phone Number :");
+	int phno=scanner.nextInt();
+	
+	
+
+}
+}

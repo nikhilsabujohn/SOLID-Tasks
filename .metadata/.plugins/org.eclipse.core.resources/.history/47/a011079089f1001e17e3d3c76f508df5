@@ -1,0 +1,20 @@
+package interfaceSeggregationPrinciple;
+
+import java.util.Random;
+
+public class GooglePay implements UPIPayments{
+
+	@Override
+	public void payMoney(long amount, int phno) {
+		System.out.println("Rupees "+amount+" paid to "+phno);
+	}
+
+	@Override
+	public void getScratchCard() {
+		Random random=new Random();
+		int n=random.nextInt(10, 500);
+		System.out.println("You got a Scratch Card Worth "+n);
+		
+	}
+
+}

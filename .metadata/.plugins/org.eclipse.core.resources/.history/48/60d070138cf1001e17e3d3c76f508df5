@@ -1,0 +1,18 @@
+package interfaceSeggregationPrinciple;
+
+import java.util.Scanner;
+
+public class PaymentController {
+	public static void main(String[] args) {
+	int phno=0;
+	Scanner scanner= new Scanner(System.in);
+	do
+	{
+	System.out.println("Enter Recipient Phone Number :");
+	phno=scanner.nextInt();
+	}while(phno<10);
+	
+	
+
+}
+}

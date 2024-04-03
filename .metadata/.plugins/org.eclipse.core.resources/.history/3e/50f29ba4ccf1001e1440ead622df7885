@@ -1,0 +1,15 @@
+package com.ty.Springboot.RestAPI;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Controller {
+	
+	@GetMapping("/n")
+	public String home()
+	{
+		return "done nik";
+	}
+
+}

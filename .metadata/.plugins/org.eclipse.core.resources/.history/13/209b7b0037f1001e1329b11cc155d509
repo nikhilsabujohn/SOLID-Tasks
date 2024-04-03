@@ -1,0 +1,5 @@
+An Account holder in a bank can't withdraw the money 
+if he/she dosen't have a savings account( cant withdraw from "current account" )
+
+hence to implement LSP separate iterfaces can be created
+
