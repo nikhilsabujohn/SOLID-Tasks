@@ -1,6 +1,6 @@
 package liskovSubstitutionPrinciple;
 
-public class SavingsAccount implements BankServices,WithdrawService{
+public class SavingsAccount extends Bank implements BankServices,WithdrawService{
 
 	@Override
 	public void withdraw(long amount, String accNo) {
