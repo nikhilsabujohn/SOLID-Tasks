@@ -1,13 +1,14 @@
 package com.ty.listDupe;
 
-import java.util.ArrayList;
+
+import java.util.LinkedList;
 import java.util.List;
 
 public class ListDupeDeletion {
 	
 	public static void main(String[] args) {
 		
-		List<Integer> l1= new ArrayList<Integer>();
+		List<Integer> l1= new LinkedList<Integer>();
 		l1.add(1);
 		l1.add(1);
 		l1.add(1);
