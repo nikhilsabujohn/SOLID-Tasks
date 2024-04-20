@@ -1,9 +1,0 @@
-package singleResponsibility;
-
-public class DepositService {
-	public long deposit(long amount,String accountNo)
-	{
-		return 0;
-	}
-
-}

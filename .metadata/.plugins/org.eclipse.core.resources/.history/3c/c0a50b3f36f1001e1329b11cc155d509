@@ -1,5 +1,0 @@
-package liskovSubstitutionPrinciple;
-
-public interface SocialPostManager {
-	void publishPhoto();
-}

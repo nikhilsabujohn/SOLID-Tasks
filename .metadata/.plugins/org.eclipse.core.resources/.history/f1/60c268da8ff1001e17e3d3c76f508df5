@@ -1,8 +1,0 @@
-package interfaceSeggregationPrinciple;
-
-public interface UPIPayments {
-	
-	public void payMoney(long amount,long phno);
-	public void getScratchCard();
-
-}

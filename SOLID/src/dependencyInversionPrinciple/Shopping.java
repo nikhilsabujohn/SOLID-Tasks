@@ -15,7 +15,7 @@ public class Shopping {
 	}
 	
 	public static void main(String[] args) {
-		BankCards bankCards=new CreditCard();
+		BankCards bankCards=new DebitCard();
 		
 		Scanner scanner=new Scanner(System.in);
 		System.out.println("Enter Product name : ");

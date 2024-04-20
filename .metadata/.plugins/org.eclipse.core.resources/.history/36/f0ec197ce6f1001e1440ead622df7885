@@ -1,5 +1,0 @@
-package com.ty.Springboot.RestAPI.entity;
-
-public class SmartPhones {
-
-}

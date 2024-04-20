@@ -1,7 +1,0 @@
-package liskovSubstitutionPrinciple;
-
-public interface BankServices {
-	void sendOTP();
-	void deposit(Long amount,String accNo);
-
-}

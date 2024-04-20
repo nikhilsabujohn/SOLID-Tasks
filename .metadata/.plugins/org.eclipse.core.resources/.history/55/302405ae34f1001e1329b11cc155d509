@@ -1,7 +1,0 @@
-package liskovSubstitutionPrinciple;
-
-public interface SocialMedia {
-	public abstract void chat();
-
-
-}

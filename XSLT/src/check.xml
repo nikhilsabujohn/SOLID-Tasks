@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <book>
+    <title>Naruto</title>
+    <author>Nikhil</author>
+    <price>500.60</price>
+    <year>1985</year>
+  </book>
+  <book>
+    <title>Naruto(Shippudan)</title>
+    <author>Nikhil</author>
+    <price>1300</price>
+    <year>1990</year>
+  </book>
+  <book>
+    <title>Attack on Titan</title>
+    <author>john</author>
+    <price>800</price>
+    <year>1989</year>
+  </book>
+  <book>
+    <title>Dragon  ball Z</title>
+    <author>Minato</author>
+    <price>1000</price>
+    <year>1991</year>
+  </book>
+  <book>
+    <title>Death Note</title>
+    <author>Shikaku</author>
+    <price>700</price>
+    <year>2005</year>
+  </book>
+  <book>
+    <title>One Piece</title>
+    <author>Kakkashi</author>
+    <price>1500</price>
+    <year>1980</year>
+  </book>
+  <book>
+    <title>One Punch Man</title>
+    <author>Usumaki</author>
+    <price>1200</price>
+    <year>1989</year>
+  </book>
+  <book>
+    <title>Baki</title>
+    <author>Itachi</author>
+    <price>900</price>
+    <year>1999</year>
+  </book>
+  <book>
+    <title>Boruto</title>
+    <author>Sukaku</author>
+    <price>300</price>
+    <year>2000</year>
+  </book>
+</library>
+

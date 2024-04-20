@@ -48,4 +48,6 @@
     <fullyQualifiedTypeName name="com.ty.listDupe.check.node"/>
     <fullyQualifiedTypeName name="java.util.zip.CRC32"/>
     <fullyQualifiedTypeName name="com.ty.listDupe.SinglyLinkedListDupDeletion"/>
+    <fullyQualifiedTypeName name="com.ty.listDupe.check"/>
+    <fullyQualifiedTypeName name="dependencyInversionPrinciple.DebitCard"/>
 </qualifiedTypeNameHistroy>

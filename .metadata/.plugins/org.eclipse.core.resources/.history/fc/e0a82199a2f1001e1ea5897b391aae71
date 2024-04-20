@@ -1,5 +1,0 @@
-package dependencyInversionPrinciple;
-
-public class CreditCard {
-
-}

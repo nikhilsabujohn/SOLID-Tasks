@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\Nikhil\Williams-Lea-Tasks\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1337267955.index
+3327089398.index
+1271785119.index
+353677780.index
+1853224496.index
+2340568194.index
