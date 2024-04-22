@@ -33,19 +33,26 @@ public class BookServices {
 		return booksData2;
 	}
 	
-	public void deleteBook(int id)
+	public boolean deleteBook(int id)
 	{
+		BooksData booksData=booksRepository.findById(id).orElse(null);
+		if(booksData!=null)
+		{
 		booksRepository.deleteById(id);
+		return true;
+		}
+		else 
+			return false;
 	}
 	
 	public BooksData updateBook(BooksData booksData,int id)
 	{
-		//booksData.setId(id);
-		BooksData booksData2=null;
-		Optional<BooksData> optional=booksRepository.findById(id);
-		if(optional.isEmpty())
+		booksData.setId(id);
+		BooksData booksData2=booksRepository.findById(id).orElse(null);
+		if(booksData2!=null)
 		{
-			return booksData;
+			booksData2=this.booksRepository.save(booksData);
+			return booksData2;
 		}
 		booksData2=this.booksRepository.save(booksData);
 		return booksData2;

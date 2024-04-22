@@ -1,10 +1,15 @@
 package com.ty.LibraryManagement.entity;
 
 
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 
 
 @Entity
@@ -16,6 +21,15 @@ public class Customer {
 	private int id;
 	private String name;
 	private long phno;
+
+	@OneToMany(mappedBy = "borrowedBy")
+	private List<BooksData> books;
+	public List<BooksData> getBooks() {
+		return books;
+	}
+	public void setBooks(List<BooksData> books) {
+		this.books = books;
+	}
 	public int getId() {
 		return id;
 	}
@@ -37,11 +51,10 @@ public class Customer {
 
 
 
-	
-	
+
 	@Override
 	public String toString() {
-		return "Customer [id=" + id + ", name=" + name + ", phno=" + phno + ", booksDatas=" + "]";
+		return "Customer [id=" + id + ", name=" + name + ", phno=" + phno + ", books=" + books + "]";
 	}
 	public Customer() {
 

@@ -36,7 +36,7 @@ public class BookController {
 		List<BooksData> list=services.getAllData();
 		if(list.isEmpty())
 		{
-			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("No Relevent Data");
 		}
 		return ResponseEntity.of(Optional.of(list));
 		
@@ -48,7 +48,7 @@ public class BookController {
 		Optional<BooksData> optional=services.getBookById(id);
 		if(optional.isEmpty())
 		{
-			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("No Data Found");
 		}
 		return ResponseEntity.ok(Optional.of(optional));
 	}
@@ -79,13 +79,19 @@ public class BookController {
 	
 	
 	@DeleteMapping("/book/{id}")
-	public void deleteBook(@PathVariable("id") int id)
+	public ResponseEntity<Object> deleteBook(@PathVariable("id") int id)
 	{
-		services.deleteBook(id);
+		
+		boolean flag=services.deleteBook(id);
+		if(flag==true)
+		{
+			return ResponseEntity.status(HttpStatus.ACCEPTED).body("Data Deleted");
+		}
+		return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("data not found");
 	}
 	
 	
-	@PutMapping("book/{id}")
+	@PutMapping("/book/{id}")
 	public ResponseEntity<BooksData> updateBook(@PathVariable("id") int id, @RequestBody BooksData booksData) {
 		BooksData booksData2=services.updateBook(booksData, id);
 		if(booksData2==null)
@@ -97,7 +103,7 @@ public class BookController {
 	}
 	
 	@PostMapping("/book/borrow/{bookId}/{userId}")
-	public ResponseEntity<BooksData> borroBook(@PathVariable("bookId") int bookId,@PathVariable("userId") int userId)
+	public ResponseEntity<BooksData> borrowBook(@PathVariable("bookId") int bookId,@PathVariable("userId") int userId)
 	{
 		BooksData book=services.borrowBook(bookId, userId);
 		if(book!=null)
@@ -108,7 +114,7 @@ public class BookController {
 	}
 	
 	@PostMapping("/book/return/{bookid}")
-	public ResponseEntity<BooksData> postMethodName(@PathVariable("bookid") int id) {
+	public ResponseEntity<BooksData> returnBook(@PathVariable("bookid") int id) {
 		BooksData booksData=services.returnBook(id);
 		if(booksData!=null)
 		{
